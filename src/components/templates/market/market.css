@@ -1,0 +1,6 @@
+.market{
+    width: calc(100% - 160px);
+    height: auto;
+    margin-left: 80px;
+    display: flex;
+}

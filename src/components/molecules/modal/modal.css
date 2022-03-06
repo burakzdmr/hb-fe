@@ -1,0 +1,86 @@
+.modalBack{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal{
+    width: 400px;
+    height: 260px;
+    background: #FFFFFF;
+    border: 1px solid rgba(228, 228, 228, 0.6);
+    box-sizing: border-box;
+    box-shadow: 0px 6px 12px rgba(50, 50, 71, 0.07);
+    border-radius: 4px;
+}
+
+.modalHeader{
+    width: 100%;
+    height: 60px;
+    border-bottom: 1px solid #CDCDCD;
+}
+
+.modalTitle{
+    width: 355px;
+    height: 17px;
+    margin-left: 18px;
+    padding-top: 23px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px; 
+    line-height: 100%;
+    color: #484848;
+}
+
+.modalContent{
+    width: 342px;
+    height: 128px;
+    padding-left: 20px;
+    padding-top: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 17px;
+    margin-bottom: 10px;
+}
+
+.modalFooter{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.modalAcceptButton{
+    width: 70px;
+    height: 26px;
+    margin-right: 10px;
+    align-items: center;
+    text-align: center;
+    background: #90D659;
+    border-width: 0px;
+    border-radius: 4px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-size: 12px;
+}
+
+.modalDeclineButton{  
+    width: 70px;
+    height: 26px;
+    margin-right: 20px;
+    align-items: center;
+    text-align: center;
+    background: #D65959;
+    border-width: 0px;
+    border-radius: 4px;
+    line-height: 26px;
+    color: #FFFFFF;
+    font-size: 12px;
+}

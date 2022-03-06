@@ -1,0 +1,4 @@
+body {
+    width: 1440px;
+    margin-left: calc(calc(100% - 1440px) / 2);
+}

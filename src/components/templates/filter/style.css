@@ -1,0 +1,7 @@
+.filters{
+    width: 208px;
+    height: auto;
+    flex-wrap: wrap;
+    margin-top: 17px;
+    font-family: 'Roboto', sans-serif;
+}

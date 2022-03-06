@@ -1,0 +1,7 @@
+.itemList{
+    width: 1072px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}

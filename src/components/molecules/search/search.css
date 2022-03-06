@@ -1,0 +1,27 @@
+
+
+.searchField{
+    width: 695px;
+    height: 48px;
+    margin-top: 24px;
+    background: #EEEEEE;
+    border-radius: 100px;
+    display: flex;
+}
+
+.searchLogo{
+width: 17.5px;
+height: 17.5px;
+margin-top: 15px;
+margin-left: 27px;
+margin-right: 11.5px;
+}
+
+
+.searchText {
+    width: calc(100% - 100px);
+    border-width: 0px;
+    background: #EEEEEE;
+    outline: none;
+}
+

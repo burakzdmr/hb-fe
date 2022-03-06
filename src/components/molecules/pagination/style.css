@@ -1,0 +1,30 @@
+.paginationBody{
+    margin-top: 35px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 35px;
+}
+.paginationButtons{
+    margin-left: 300px;
+    width: auto;
+    height: 35px;
+    display: flex;
+}
+.pageButton{
+    cursor: pointer;
+    margin-left: 10px;
+    width: 33px;
+    height: 33px;
+    background: #FFFFFF;
+    border: 2px solid #EEEEEE;
+    box-sizing: border-box;
+    border-radius: 9px;
+    align-items: center;
+    text-align: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 33px;
+    color: #646464;
+}

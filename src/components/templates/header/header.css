@@ -1,0 +1,55 @@
+.header{
+    width: calc(100% - 160px);
+    height: 96px;
+    margin-left: 80px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo{
+    width: 211.52px;
+    height: 35px;
+    margin-top: 31px;
+    margin-right: 153px;
+}
+
+.basketField{
+    position: relative;
+}
+
+
+.basket {
+    cursor: pointer;
+    width: 118px;
+    height: 48px;
+    margin-left: 100px;
+    margin-top: 23px;
+    border: 1px solid #B0B0B0;
+    box-sizing: border-box;
+    border-radius: 4px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 48px;
+    align-items: center;
+    text-align: center; 
+    color: #B0B0B0;
+}
+
+.counter{
+    top: 15px;
+    right: -5px;
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    font-size: 14px;
+    line-height: 18px;
+    background: #FF6000;
+    color: white;
+    align-items: center;
+    text-align: center; 
+    border-radius: 50%;
+}
+
